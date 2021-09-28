@@ -1,0 +1,8 @@
+list how many files are in a dir; ls /usr/share/ | wc -l
+list how many unpacked items in a dir; cat /var/log/dpkg.log | grep unpacked | wc -l
+list total amount of items in a dir/file; cat /var/log/dpkg.log (or corresponding path) | wc -l
+Determine How Many Words Start with the Letter 'x'; cat /path/ | grep -E '^x' | wc -l > file.ext
+Determine How Many Words End with the Letter 'x'; cat /path/ | grep -E 'x$'| wc -l >> file.ext
+Determine Which Word Starts with 'l', Ends in 'x', and Contains 5 Characters Total; cat /path/ | grep -E '^l...x$' | wc -l >> file.ext
+Determine How Many 3-Letter Words Start with the Letters 'y' or 'z'; cat /path/ | grep -E '^y..$ | ^z..$' | wc -l >> file.ext
+head -n number file > file; sends a certain number or items from the beginning of a file to another file.
