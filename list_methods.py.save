@@ -1,0 +1,20 @@
+
+
+#list methods
+"""
+.count(); list method to count the number of occurances
+of an element in a list.
+
+.insert(); list method to insert an element into a 
+specific index of a list
+
+.pop(); list method to remove and element form a 
+specific index or from the end of a list.
+
+range(); built-in python function to create a sequence of integers.
+
+len(); built-in python function to get the length of a list.
+
+.sort()/.sorted() - a method and built in function to sort a list.
+"""
+
